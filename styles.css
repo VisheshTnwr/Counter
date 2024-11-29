@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.container{
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#counter_value {
+    display: block;
+    font-size: 3rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.button-container {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    color: #333;
+}
+.button-container button:hover {
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-container button:active {
+    transform: scale(0.95);
+}
+button {
+    border: 1px solid;
+    border-radius: 10px;
+    letter-spacing: 4px;
+    width: 7rem;
+    padding: 7px;
+    margin: 10px;
+}
